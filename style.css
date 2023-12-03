@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    background: gray;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 85px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0px;
+}
+
+.navbar .icon-block {
+    display: flex;
+}
+
+.navbar .icon-block a {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.fa-instagram,
+.fa-github,
+.fa-linkedin {
+    color: black;
+    font-size: 50px;
+}
+
+.icon-block i {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.icon-block i:hover {
+    background-color: white;
+    color: black;
+}
+
+.icon-block a {
+    text-decoration: none;
+}
+
+.container .background {
+    background-image: url(./images/AhmetYigitKaratay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(50px);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.container .profile-card {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+.picture .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    max-width: 20vw;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(177, 181, 184, 0.1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+@media (min-width: 1280px) { 
+    .profile-card .profile {
+      top: -35vh;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .profile-card .profile {
+      max-width: 40vw;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .profile-card .profile {
+      max-width: 50vw;
+    }
+  }
+
+
+.profile-card h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.profile-card h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+
+.profile-content button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px;
+    border-radius: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: 1s;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
