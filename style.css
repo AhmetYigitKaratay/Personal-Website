@@ -33,13 +33,14 @@ body {
 .navbar .icon-block a {
     list-style: none;
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
 
 }
 
 .fa-instagram,
 .fa-github,
-.fa-linkedin {
+.fa-linkedin,
+.fa-twitter {
     color: black;
     font-size: 50px;
 }
@@ -78,7 +79,6 @@ body {
 
 }
 
-
 .container .profile-card {
     position: absolute;
     top: 75%;
@@ -87,8 +87,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
-
-
 
 .picture .profile {
     border-radius: 50%;
@@ -120,7 +118,6 @@ body {
       max-width: 50vw;
     }
   }
-
 
 .profile-card h1 {
     color: black;
